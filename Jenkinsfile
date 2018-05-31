@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('burning-servers') {
       steps {
-        echo 'SErvers are burning'
+        echo 'Servers are burning'
         sh '''pipeline {
    agent any
    stages {
